@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import smtplib
 from time import sleep
 
-email = "mahmutcarlsen@gmail.com"
-password = "Kerem2894" 
-mails= ["keremtowork@gmail.com","keremtowork@gmail.com"]
+email = ""
+password = "" 
+mails= ["",""]
 sleep(3600)
 urlw = "https://market.samm.com/raspberry-pi-zero-w-en"
 urlwh = "https://market.samm.com/raspberry-pi-zero-wh-en"
