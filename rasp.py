@@ -24,8 +24,8 @@ if "Out of stock" not in w:
         smtp.ehlo()
 
         smtp.login(email, password)
-        subject = "Kerem'e haber verin Pi ZERO W geldi kankii diyee."
-        body = "Kerem'e haber verin Pi ZERO W geldi kankii diyee."
+        subject = "text."
+        body = "text."
         msg = f"Subject: {subject}\n\n{body}"
         smtp.sendmail(email,mails[0],msg)
 
@@ -36,7 +36,7 @@ if "Out of stock" not in wh:
         smtp.ehlo()
 
         smtp.login(email, password)
-        subject = "Kerem'e haber verin Pi ZERO W geldi kankii diyee."
-        body = "Kerem'e haber verin Pi ZERO W geldi kankii diyee."
+        subject = "etx"
+        body = "text."
         msg = f"Subject: {subject}\n\n{body}"
         smtp.sendmail(email,mails[0],msg)
